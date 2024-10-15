@@ -63,12 +63,17 @@ Make sure you have the following installed:
   ```bash
   cd blog
 
-## 2. Install Dependencies 📦
+ 3. **Install Dependencies**:
 
 To install the required dependencies for the project, navigate to the project directory and run:
 
 ```bash
 npm install
 
+4. **Start the Development Server**:  
+   To run the server, use the following command:
+
+   ```bash
+   npm start
 
 
