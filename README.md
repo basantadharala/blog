@@ -63,15 +63,14 @@ Make sure you have the following installed:
   ```bash
   cd blog-web-application
 
-4. **Install dependencies**:
+3. **Install dependencies**:
 
   ```bash
   npm install
 
-
-5. **Start the server**:
+4. ** Start the server**:
 
    ```bash
    npm index.js
 
-6. ** Visit http://localhost:3000 in your browser to view the app! 🌐 **
+5. ** Visit http://localhost:3000 in your browser to view the app! 🌐 **
