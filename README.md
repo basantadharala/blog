@@ -49,7 +49,7 @@ Make sure you have the following installed:
 - [Node.js](https://nodejs.org/en/download/)
 - [Git](https://git-scm.com/)
 
-### Steps 📝
+#### Steps 📝
 
 1. **Clone the repository**:  
    Open your terminal and run the following command:
@@ -61,16 +61,14 @@ Make sure you have the following installed:
 
  
   ```bash
-  cd blog-web-application
+  cd blog
 
-3. **Install dependencies**:
+## 2. Install Dependencies 📦
 
-  ```bash
-  npm install
+To install the required dependencies for the project, navigate to the project directory and run:
 
-4. ** Start the server**:
+```bash
+npm install
 
-   ```bash
-   npm index.js
 
-5. ** Visit http://localhost:3000 in your browser to view the app! 🌐 **
+
