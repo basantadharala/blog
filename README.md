@@ -56,3 +56,15 @@ Make sure you have the following installed:
 
    ```bash
    git clone https://github.com/basantadharala/blog.git
+
+2. **Navigate to the project directory**:
+cd blog-web-application
+
+3. **Install dependencies**:
+ npm install
+
+
+5. **Start the server**:
+   npm index.js
+
+6. **Visit http://localhost:3000 in your browser to view the app! 🌐**
