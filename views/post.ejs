@@ -1,0 +1,23 @@
+<% if (locals.includeFooter !==false) { %>
+   <%- include("partials/footer.ejs") %>
+      <% } else {%>
+         <%- include("home.ejs") %>
+            <% } %>
+
+               <div class="form post ">
+                  <h1 id="title">
+                     <%= posts[0].title %>
+                  </h1>
+                  <p><%- posts[0].postContent.replace(/\n/g, '<br>' ) %></p>
+               </div>
+
+               <div class="button">
+
+                  <button type="button" id="edit">Edit</button>
+                  <button type="button" id="delete">Delete</button>
+               </div>
+
+
+
+
+               <%- include("partials/footer.ejs") %>

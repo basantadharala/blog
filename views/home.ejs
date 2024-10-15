@@ -1,0 +1,21 @@
+<%- include("partials/header.ejs") %>
+
+    <h1 class="header">
+        Welcome to web blog Application
+    </h1>
+
+
+    <form action="/submit" method="post">
+        <div class="form">
+            <label for="title">Title:</label><br>
+            <input type="text" name="title" placeholder="Title Here..." required><br>
+            <label for="content">Content:</label><br>
+            <textarea name="postContent" placeholder="Write your post here..." required></textarea>
+        </div>
+        <button type="submit" id="post-button">Post</button>
+
+    </form>
+
+    <% if (locals.includeFooter !==false) { %>
+        <%- include("partials/footer.ejs") %>
+            <% } %>

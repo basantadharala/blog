@@ -1,0 +1,13 @@
+<form action="/update" method="post">
+    <div class="form">
+        <label for="title"></label><br>
+        <input type="text" name="title" <%= posts[0].title %>><br>
+        <label for="content">Content:</label><br>
+        <textarea name="postContent" required><%= posts[0].postContent.replace(/\n/g, '<br>' ) %></textarea>
+    </div>
+    <div class="button">
+     
+        <button type="button" id="edit" >Edit</button>
+
+     </div>
+</form>
